@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-deep: #0e0520;
+  --color-bg: #1a0a2e;
+  --color-bg-mid: #251245;
+  --color-surface: #2a1650;
+  --color-surface-2: #331d5e;
+  --color-surface-3: #3d256b;
+  --color-magenta: #d946ef;
+  --color-magenta-light: #e879f9;
+  --color-cyan: #22d3ee;
+  --color-cyan-light: #67e8f9;
+  --color-blue: #818cf8;
+  --color-purple: #a78bfa;
+  --color-green: #34d399;
+  --color-red: #f87171;
+  --color-coral: #fb7185;
+  --color-text: #f0eaf8;
+  --color-text-dim: rgba(255, 255, 255, 0.55);
+  --color-text-mid: rgba(255, 255, 255, 0.75);
+  --color-border: rgba(255, 255, 255, 0.06);
+  --color-border-m: rgba(217, 70, 239, 0.15);
+  --color-glow-m: rgba(217, 70, 239, 0.08);
+  --font-heading: "Montserrat", sans-serif;
+  --font-body: "DM Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+::selection {
+  background: var(--color-magenta);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-deep);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-surface-3);
+  border-radius: 3px;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-bg-deep);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}

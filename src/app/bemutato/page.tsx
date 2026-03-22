@@ -40,14 +40,14 @@ const tools = [
     description:
       "10 kérdéses interaktív kvíz az agy működéséről, öregedéséről és védelméről. Minden kérdés után tudományos magyarázat — szórakoztató formában tanít. Megosztható eredmény.",
     benefits: [
-      "Virális potenciál — „Mennyit tudsz az agyadról?" megosztás TikTok/Instagram Stories-ban",
+      "Virális potenciál — 'Mennyit tudsz az agyadról?' megosztás TikTok/Instagram Stories-ban",
       "Edukáció szórakoztatva — a tudományos nagyköveti szerep lényege",
       "Lead generálás — a kvíz végén irányítás a weboldalra és NeuroLab-ra",
       "Adatgyűjtés lehetőség — hányan oldják meg, átlag pontszám",
       "Branding — minden interakció erősíti a BrainToBrain márkát",
     ],
     useCase:
-      "Anna megosztja Instagram Stories-ban: „Teszteld, mennyit tudsz az agyadról! 🧠" — a követők kitöltik, megosztják az eredményüket, új követők jönnek.",
+      "Anna megosztja Instagram Stories-ban: 'Teszteld, mennyit tudsz az agyadról!' — a követők kitöltik, megosztják az eredményüket, új követők jönnek.",
   },
   {
     icon: "🤖",
@@ -65,7 +65,7 @@ const tools = [
       "Innovatív — kevés magyar kutató kínál ilyet",
     ],
     useCase:
-      "Egy egyetemista beírja: „Mi az autofágia?" — a chatbot közérthetően elmagyarázza és megemlíti, hogy ez Anna kutatási területe. Az agyi felmérés kitöltése után személyes tippeket kap.",
+      "Egy egyetemista beírja: 'Mi az autofágia?' — a chatbot közérthetően elmagyarázza és megemlíti, hogy ez Anna kutatási területe. Az agyi felmérés kitöltése után személyes tippeket kap.",
   },
 ];
 
